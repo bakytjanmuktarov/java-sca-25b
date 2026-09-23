@@ -6,9 +6,9 @@ public class Main {
         int a = input.nextInt();
         int b = input.nextInt();
         int n = input.nextInt();
-        int x = (a * 100 + b) * n;
-        int rb = x / 100;
-        int k = x % 100;
+        int z = (a * 100 + b) * n;
+        int rb = z / 100;
+        int k = z % 100;
         System.out.println(rb + " " + k);
     }
 }
